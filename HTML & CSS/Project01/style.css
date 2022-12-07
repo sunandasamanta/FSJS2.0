@@ -1,0 +1,92 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body {
+    margin: 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    background-color: #fff;
+}
+section[aria-label="navbar"] {
+    width: 100vw;    
+    margin: 3rem 5rem;
+}
+.list {
+    font-size: 1rem;
+}
+li{
+    display: inline;
+    line-height: 1.5;
+    margin-left: 1.5rem;    
+    margin-bottom: 1.5rem;
+
+}
+.list-item {
+    color: rgba(135, 140, 145, 0.9);
+}
+.list-item:nth-child(1){
+    color: #000;
+}
+.navbar-container {
+    display: flex;
+    width: 100vw;
+}
+.button-group {
+    margin: auto;
+    position: absolute;
+    right: 6.25rem;
+    top: 3rem;
+}
+.nav-button{    
+    box-shadow: 3px 3px 3px #dadde1;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 9rem;
+    font-size: 1rem;
+    background-color: rgba(57, 60, 131, 90%);    
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+section[aria-label="banner"] {
+    margin: 5rem;
+    width: 100vw;
+    
+}
+.banner-container {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}
+.banner-container > div > img {
+    width: 56vw;
+}
+.heading-text {
+    color: #010059;
+    margin: 3rem 0 0 0;
+    font-weight: 800;
+    font-size: 4rem;
+    word-spacing: normal;
+}
+.heading-text > span {
+    color: rgba(57, 60, 131, 95%);    
+}
+.description {
+    color: rgba(74, 76, 78, 90%);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 15rem;
+}
+
+.btn {
+    font-weight: bold;
+    background-color: rgba(57, 60, 131, 85%);  
+    position: absolute;
+    top: 40rem;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 12.5rem;
+}
