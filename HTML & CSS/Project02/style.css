@@ -12,7 +12,6 @@ body {
     height: 100%;
 }
 .navbar {
-    width: 100vw;
     background-color: #000;
     margin: 0;
     padding: 1rem;
@@ -24,7 +23,8 @@ body {
 }
 .logo {
     align-items: center;
-    padding-right: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 .list{
     word-spacing: 1rem;
@@ -33,6 +33,7 @@ body {
     display: inline;
     color: #fff;
     font-size: large;
+    margin-left: 1rem;
 }
 .button-small {
     position: absolute;
@@ -56,6 +57,7 @@ body {
 }
 .hero-heading {
     margin-top: 10rem;
+    margin-bottom: 0;
     font-weight: 800;
     font-size: 64px;
 }
@@ -74,5 +76,5 @@ body {
     font-weight: bold;
     font-size: 1.25rem;
     margin-top: 2rem;
-    width: 15rem;
+    width: 16rem;
 }
