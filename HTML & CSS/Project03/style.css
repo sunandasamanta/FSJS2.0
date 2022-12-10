@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.list {
+    margin-top: 0.75rem;
+    
+}
+.list-item {
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+.logo {
+    position: relative;
+    cursor: pointer;
+}
+.calm-body {
+    display: flex;
+    margin-top: 5rem;
+}
+article {
+    margin-right: 10rem;
+}
+.calm-text {
+    margin-top: 15rem;
+}
+.heading {
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.description {
+    margin-bottom: 3rem;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.upper-imgage {
+    display: flex;
+}
+.images {
+    margin: 0.5rem;
+    height: auto;
+    width: auto;
+}
+.image {
+    margin-top: 5rem;
+    display: grid;
+    margin-right: 2rem;
+}
+.btn {
+    background-color: #259f6c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
