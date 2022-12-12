@@ -1,3 +1,5 @@
-# This 2nd project built using HTML and CSS
+# Project 02
 
-./output.png/
+This project is made using HTML and CSS
+
+![output](./output.png/)
