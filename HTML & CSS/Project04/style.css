@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+
+body {
+    margin: 2rem 0 0 3rem;
+    background-image: url(./images/stethoscope.png);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+}
+.logo {
+    cursor: pointer;
+}
+.list {
+    position: absolute;
+    right: 5rem;
+}
+.list-item {
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+.item1 {
+    color: #52de97;
+}
+.hero {
+    display: flex;
+    position: relative;
+    margin-top: 2%;
+}
+.hero-text {
+    margin-top: 5%;
+}
+.heading {
+    font-weight: 800;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+.description {
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: grey;
+    margin-top: 0;
+}
+.btn {
+    background-color: #52de97;
+    border: none;
+    border-radius: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.bottom {
+    /* display: grid; */
+}
+.bottomAngle {
+    margin-left: 80%;
+    justify-content: end;
+}
+.mouse {
+    margin-top: 1rem;
+}
+.hero-img {
+    position: relative;
+}
+
+.image1 {
+    position: absolute;
+    top: 30%;
+    width: 33rem;
+    right: 1rem;
+}
+.image2 {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 31rem;
+}
+.image3 {
+    /* top: 0rem; */
+    position: relative;
+    width: 38rem;
+}
