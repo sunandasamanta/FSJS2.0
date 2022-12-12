@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
 
 body {
-    margin: 2rem 0 0 3rem;
+    margin: 3rem 0 0 5rem;
     background-image: url(./images/stethoscope.png);
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(24, 116, 152, 10%);
+    max-width: 100%;
+}
+main {
+    max-width: inherit;
 }
 nav {
     display: flex;
@@ -19,7 +24,7 @@ nav {
 .list-item {
     display: inline;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-right: 2.5rem;
     cursor: pointer;
 }
@@ -32,58 +37,66 @@ nav {
     margin-top: 2%;
 }
 .hero-text {
+    position: relative;
     margin-top: 5%;
+    max-width: 65%;
 }
 .heading {
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 5rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
 }
 .description {
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: grey;
     margin-top: 0;
 }
 .btn {
     background-color: #52de97;
     border: none;
-    border-radius: 1.5rem;
+    border-radius: 2.5rem;
     color: #fff;
-    padding: 1rem;
+    padding: 1.25rem 3.5rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.75rem;
     cursor: pointer;
+    margin-top: 1rem;
 }
 .bottom {
-    /* display: grid; */
+    position: relative;
+    width: inherit;
 }
-.bottomAngle {
-    margin-left: 80%;
-    justify-content: end;
+
+.bottomAngle {    
+    position: absolute;    
+    right: 3.5rem;
+    bottom: 0;
 }
 .mouse {
-    margin-top: 1rem;
+    position: absolute;
+    margin-top: 1.5rem;
+    right: 0;
 }
 .hero-img {
     position: relative;
+    
 }
 
 .image1 {
     position: absolute;
-    top: 30%;
-    width: 33rem;
+    top: 22%;
+    width: 36rem;
     right: 1rem;
 }
 .image2 {
     position: absolute;
-    top: 30%;
-    right: 0;
-    width: 31rem;
+    top: 25%;
+    right: -3px;
+    width: 33rem;
 }
 .image3 {
-    /* top: 0rem; */
-    position: relative;
-    width: 38rem;
+    position: relative;    
+    width: 37rem;
 }
