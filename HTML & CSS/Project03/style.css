@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
-body {
-    margin-left: 5rem;
+body {    
     font-family: 'Montserrat', sans-serif;
+}
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navbar {
     display: flex;
