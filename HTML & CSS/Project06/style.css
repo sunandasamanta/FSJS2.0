@@ -1,0 +1,28 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+body {
+    margin-left: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-container {
+    display: flex;
+}
+.list {
+    
+}
+.list-item {
+    display: inline;
+}
+.button-group {
+    display: flex;
+    position: absolute;
+    right: 5rem;
+    top: 1rem;
+}
+.hero-container {
+    position: relative;
+}
+.square {
+    
+}
