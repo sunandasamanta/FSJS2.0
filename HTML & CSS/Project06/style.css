@@ -2,27 +2,136 @@
 /* You can only modify the CSS file */
 
 body {
-    margin-left: 5rem;
-    font-family: 'Poppins', sans-serif;
+    margin-left: 7rem;
+    font-family: "orbitron", sans-serif;
 }
+
 .navbar-container {
     display: flex;
+    margin: 4rem 4rem 4rem 0;
+    margin-bottom: 4rem;
 }
-.list {
-    
+
+img[src="./assets/Logo.png"] {
+    margin-right: 10rem;
 }
+
 .list-item {
     display: inline;
+
+    font-size: 1.45rem;
+    margin-left: 2.5rem;
 }
+
+.list-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.65rem;
+}
+
 .button-group {
     display: flex;
     position: absolute;
     right: 5rem;
-    top: 1rem;
 }
+
 .hero-container {
     position: relative;
 }
+
+.nav-button {
+    background-color: #fff;
+    color: grey;
+    font-size: 1.25rem;
+    width: 7.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 0.75rem;
+    margin-left: 0.75rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.hero-container {
+    display: flex;
+    margin-top: 2rem;
+}
+
 .square {
-    
+    position: absolute;
+    z-index: -1;
+    bottom: -12.5%;
+    left: 10%;
+}
+
+img[src="./assets/Image.png"] {
+    width: 95%;
+}
+
+.star {
+    position: absolute;
+    right: 15%;
+}
+
+.star:nth-child(2) {
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+}
+
+.globe {
+    position: absolute;
+    top: -3%;
+    left: 41%;
+}
+
+.hero-container-right {
+    text-align: center;
+    width: 60%;
+    margin-top: 1.75rem;
+}
+
+.hero-heading {
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.hero-description {
+    font-family: "Poppins", sans-serif;
+    color: grey;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7rem;
+}
+
+.button-email {
+    width: 15rem;
+    background-color: #fff;
+    color: grey;
+    font-size: 1.5rem;
+    padding: 0.25rem 1.5rem 0.25rem 1.5rem;
+    border-radius: 0.75rem;
+    margin-left: 0.75rem;
+    font-weight: 400;
+}
+
+.button-join {
+    border-radius: 0.75rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.contact-heading {
+    margin: 8rem 0 0.5rem 0;
+    font-weight: 800;
+    color: gray;
+    font-size: 1.25rem;
+}
+
+.icons span {
+    margin-left: 0.75rem;
 }
