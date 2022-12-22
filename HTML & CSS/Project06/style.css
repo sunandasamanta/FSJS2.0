@@ -60,8 +60,8 @@ img[src="./assets/Logo.png"] {
 .square {
     position: absolute;
     z-index: -1;
-    bottom: -12.5%;
-    left: 10%;
+    bottom: 0;
+    left: 5%;
 }
 
 img[src="./assets/Image.png"] {
@@ -78,6 +78,9 @@ img[src="./assets/Image.png"] {
     bottom: 15%;
     left: 40%;
 }
+.star:nth-child(2) > img{
+    width: 3rem;
+}
 
 .globe {
     position: absolute;
@@ -87,7 +90,6 @@ img[src="./assets/Image.png"] {
 
 .hero-container-right {
     text-align: center;
-    width: 60%;
     margin-top: 1.75rem;
 }
 
