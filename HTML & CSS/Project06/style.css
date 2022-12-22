@@ -2,14 +2,13 @@
 /* You can only modify the CSS file */
 
 body {
-    margin-left: 7rem;
+    margin: 5rem 0 5rem 8rem;
     font-family: "orbitron", sans-serif;
 }
 
 .navbar-container {
     display: flex;
-    margin: 4rem 4rem 4rem 0;
-    margin-bottom: 4rem;
+    margin: 0rem 0rem 4rem 0;
 }
 
 img[src="./assets/Logo.png"] {
@@ -18,7 +17,7 @@ img[src="./assets/Logo.png"] {
 
 .list-item {
     display: inline;
-
+    font-weight: 500;
     font-size: 1.45rem;
     margin-left: 2.5rem;
 }
@@ -60,12 +59,8 @@ img[src="./assets/Logo.png"] {
 .square {
     position: absolute;
     z-index: -1;
-    bottom: 0;
-    left: 5%;
-}
-
-img[src="./assets/Image.png"] {
-    width: 95%;
+    bottom: -11%;
+    left: 11%;
 }
 
 .star {
@@ -78,7 +73,8 @@ img[src="./assets/Image.png"] {
     bottom: 15%;
     left: 40%;
 }
-.star:nth-child(2) > img{
+
+.star:nth-child(2)>img {
     width: 3rem;
 }
 
@@ -128,7 +124,7 @@ img[src="./assets/Image.png"] {
 }
 
 .contact-heading {
-    margin: 8rem 0 0.5rem 0;
+    margin: 10rem 0 0.5rem 0;
     font-weight: 800;
     color: gray;
     font-size: 1.25rem;
