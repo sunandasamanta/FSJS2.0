@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;800;900&display=swap');
+
+body {
+    margin: 0;
+    color: #fff;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+/* main {
+    
+} */
+
+section[aria-label="hero-home"] {
+    width: 100%;
+    height: 55rem;
+    background-image: url(./Assets/Photos/futuristic-bg.png);
+}
+
+.hero-home {
+    width: 90%;
+    margin: 0rem auto;
+    padding-top: 3rem;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 0.75rem;
+}
+
+.navbar-menu {
+    width: 25%;
+    min-width: 35rem;
+    max-width: 40rem;
+    margin: 0 auto;    
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.menu-item {
+    margin-right: 1.75rem;
+}
+
+.menu-item:nth-last-child(1) {
+    margin: 0;
+}
+
+.menu-item:hover {
+    color: #F4694C;
+    /* font-size: 2rem; */
+    cursor: pointer;
+}
+
+.sign-in {
+    position: absolute;
+    right: 0;
+}
+
+.btn {
+    padding: 1.5rem 2.5rem;
+    position: relative;
+    top: -1.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: #F4694C;
+    color: #fff;
+    border: none;
+}
+
+.hero-front {
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-top: 2rem;
+}
+
+.hero-front-text {
+    width: 50%;
+}
+
+.hero-front-heading {
+    font-weight: 900;
+    font-size: 5.5rem;
+}
+
+.hero-front-description {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+.btn2 {
+    margin-right: 3rem;
+}
+
+.btn3 {
+    border: 2px solid #fff;
+    background: none;
+}
+
+.hero-front-img {
+    position: relative;
+    width: 50%;
+    background: no-repeat center url(./Assets/Icons/playButton.svg);    
+}
+
+.hero-front-img-text {
+    width: 70%;
+    margin-left: auto;
+    display: flex;    
+    position: absolute;
+    bottom: 2.5%;
+    right: 25%;
+}
+
+.hero-front-img-text > img {
+    width: 100px;
+}
+
+.hero-front-img-description {
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0 1rem;
+    width: 75%;
+}
+
+section[aria-label="hero-games"] {
+    width: 100%;
+    height: 120rem;
+    color: #000;
+}
+
+.hero-games {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero-games-container1 {
+    width: 70%;
+    margin: 7rem auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.hero-games-container2 {
+    display: flex;
+}
+
+.box {
+    width: 23%;
+    height: 28rem;
+    margin: auto;
+    position: relative;
+    color: #fff;
+}
+
+.content {
+    width: 50%;
+    margin-left: 1rem;
+}
+.download {
+    width: 50%;
+}
+.download-btn {
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    background-color: #F4694C;
+    color: #fff;
+    border: none;
+    position: relative;
+    top: 2.25rem;
+}
+.game-box1 {
+    background: no-repeat center url(./Assets/Photos/image\ 2.png);
+    background-size: 100% 100%;
+}
+.game-content {
+    width: 100%;
+    height: 8rem;
+    position: absolute;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    display: flex;
+}
+.game-box2 {
+    background: no-repeat center url(./Assets/Photos/image\ 4.png);
+    background-size: 100% 100%;
+}
+
+.game-box3 {
+    background: no-repeat center url(./Assets/Photos/image\ 3.png);
+    background-size: 100% 100%;
+}
+
+.game-box4 {
+    background: no-repeat center url(./Assets/Photos/Rectangle\ 56.png);
+    background-size: 100% 100%;
+}
+.hero-games-container3 {
+    padding-top: 7rem;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+}
+
+.bg-game-img {
+    width: 49%;
+    background: no-repeat center url(./Assets/Photos/Rectangle\ 57.png) ;
+    margin-right: auto;
+}
+.bg-game-text {
+    width: 47%;
+}
+.hero-bg-heading {
+    font-weight: 900;
+    font-size: 4rem;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+}
+.hero-bg-description {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+.btn4 {
+    background-color: #fff;
+    border: 2px solid #F4694C;
+    color: #F4694C;
+}
+.bg-button {
+    position: relative;
+    top: 1rem;
+}
